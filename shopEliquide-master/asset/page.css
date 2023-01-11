@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A4C2BF;
+    color: #7DB0B0;
+}
+
+.conexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.boite {
+    height: 100px;
+    background-color: #7DB0B0;
+    border-radius: 10px;
+}

@@ -1,0 +1,245 @@
+::before, ::after{
+    height: 100vh;
+}
+
+body{
+    background-color: #A4C2BF;
+    margin: 0%;
+}
+nav{
+    height: 95px;
+    display: flex;
+    background-color: #58A4B0;
+}
+
+img{
+   height: 97px;
+   margin-left: 60px;
+}
+
+
+h1{
+    font-size: 60px;
+    margin-top: 9px;
+    margin-left: 30px;
+    color:#ffffff;
+}
+
+.buttonUsers{
+    display: flex;
+    font-size: 25px;
+    margin-left: 420px;
+    margin-top: 30px;
+}
+                              /* Button connextion */
+.Seconnecter a{
+    margin-right: 60px;
+    text-decoration: none;
+    background-color: #7DB0B0;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 60% 50px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                                /* Button subscribe */
+.inscription a{
+    margin-left: -35px;
+    text-decoration: none;
+    background-color: #7DB0B0;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 60% 50px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                                  /* Article de tout les items E-liquide */
+.articleItem{
+    height: 75px;
+    background-color: #58A4B0;
+    margin-top: 3px;
+    box-shadow: 1px 5px 10px black;
+}
+
+.articleItem{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.articleItem img{
+    border-radius: 50%;
+    height: 60px;
+    margin-right: 0%;
+    margin-top: 7px;
+    margin-left: 0%;
+}
+                            /* Alignement d'un mots à son image */
+
+.orangePoire{
+    margin-top: 10px;
+}
+
+.exotique{
+    margin-top: 10px;
+}
+
+.mangueCoco{
+    margin-top: 10px;
+}
+
+.passionAnanas{
+    margin-top: 10px;
+}
+
+.melonFraise{
+    margin-top: 10px;
+}
+
+.cassisBonbon{
+    margin-top: 10px;
+}
+
+
+
+ a{
+    text-decoration: none;
+    block-size: auto;
+    writing-mode: horizontal-tb;
+}
+
+
+
+.titleNews{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+.barreSolid {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+.titleNews2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 300px;
+    margin-top: -200px;
+}
+
+.barreSolid2 {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: -250px;
+}
+
+
+
+
+                           /* Images des E-liquides */
+
+
+#container_flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Mise en place de la grille des produit*/
+#container_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3,auto);
+    grid-column-gap:100px;
+    grid-row-gap:100px;
+}
+/*produit*/
+.prix{
+    margin-right: -20%;
+    float: right;
+    padding: 3%;
+    background-color: #FFEEDB;
+    box-shadow: 0px 2px 5px black;
+}
+.produit{
+    height: 100%;
+    width: auto;
+    padding: 5%;
+    background-color:  #58A4B0;
+    border-radius: 3%;
+}
+.produit > img{
+    margin-right: 30px;
+    border-radius: 3%;
+}
+/*Description produit*/
+.description{
+    border-radius: 3%;
+    background-color:#ffeedb ;
+    padding: 7%;
+}
+
+.description>h2{
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+#container_flex{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Mise en place de la grille des produit*/
+#container_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3,auto);
+    grid-column-gap:100px;
+    grid-row-gap:100px;
+}
+/*produit*/
+.prix{
+    margin-right: -20%;
+    float: right;
+    padding: 3%;
+    background-color: #FFEEDB;
+    box-shadow: 0px 2px 5px black;
+}
+.produit{
+    height: 100%;
+    width: auto;
+    padding: 5%;
+    background-color:  #58A4B0;
+    border-radius: 3%;
+}
+.produit> img{
+    margin-left:1px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 200px;
+
+}
+/*Description produit*/
+.description{
+    border-radius: 3%;
+    background-color:#ffeedb ;
+    padding: 7%;
+}
+
+.description>h2{
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+

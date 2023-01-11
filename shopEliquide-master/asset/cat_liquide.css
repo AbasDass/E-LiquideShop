@@ -1,0 +1,83 @@
+
+/*Navigatio*/
+nav{
+    height: 95px;
+    display: flex;
+    background-color: #58A4B0;
+    margin: 2px;
+}
+
+#logo{
+   height: 97px;
+   margin-left: 60px;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 9px;
+    margin-left: 3px;
+   
+}
+
+
+#container_flex {
+   display: flex;
+   width: 700px;
+  flex-wrap: wrap;
+  flex-direction: row
+}
+
+
+/*Mise en place de la grille des produit*/
+#container_grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3,auto);
+    grid-column-gap:100px;
+    grid-row-gap:100px;
+}
+/*produit*/
+.prix{
+    margin-right: 20%;
+    float: right;
+    padding: 3%;
+    background-color: #FFEEDB;
+   
+}
+.produit{
+    height: 0px;
+    width: 0px;
+    background-color:  #58A4B0;
+  
+    border-radius: 3%;
+}
+.produit> img{
+    width: 70%;
+    padding: 2%;
+    border-radius: 10px;
+}
+/*Description produit*/
+.description{
+    border-radius: 3%;
+    background-color:#ffeedb ;
+
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: 10%;
+}
+/*Button*/
+.btn_voir>button{
+    cursor: pointer;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 20%;
+
+    background-color: #ffeedb;
+    padding: 5%;
+    border: none;
+    border-radius: 5%;
+   
+}
